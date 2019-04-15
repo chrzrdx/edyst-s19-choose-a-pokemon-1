@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>pokemon</title>
+        <style>
+            *{
+                box-sizing: content-box;
+            }
+            .column{
+                float: left;
+                width: 33.0%
+            }
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Choose any of the pokeman</h1>
+        <div class="row">
+            <div class="column">
+                <img src="pokemon/pokemon1.jpg" alt="bulbasaur" style="width: 60%">
+            </div>
+            <div class="column">
+                    <img src="pokemon/pokemon2.jpg" alt="charmender" style="width: 60%">
+            </div>
+            <div class="column">
+                    <img src="pokemon/pokemon3.jpg" alt="squirtle" style="width: 60%">
+            </div>
+        </div>
+    </body>
+</html>
