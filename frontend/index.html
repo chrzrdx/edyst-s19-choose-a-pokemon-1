@@ -5,11 +5,15 @@
             *{
                 box-sizing: content-box;
             }
+            #container {
+                display: flex;
+                flex-direction: row;
+            }
             .column{
                 float: left;
                 width: 33.0%
             }
-            .row::after {
+            .row{
                 content: "";
                 clear: both;
                 display: table;
@@ -20,13 +24,13 @@
         <h1>Choose any of the pokeman</h1>
         <div class="row">
             <div class="column">
-                <img src="pokemon/pokemon1.jpg" alt="bulbasaur" style="width: 60%">
+                <img src="pokemon/pokemon11.jpg" alt="bulbasaur" style="width: 60%">
             </div>
             <div class="column">
-                    <img src="pokemon/pokemon2.jpg" alt="charmender" style="width: 60%">
+                    <img src="pokemon/pokemon22.jpg" alt="charmender" style="width: 60%">
             </div>
             <div class="column">
-                    <img src="pokemon/pokemon3.jpg" alt="squirtle" style="width: 60%">
+                    <img src="pokemon/pokemon33.jpg" alt="squirtle" style="width: 60%">
             </div>
         </div>
     </body>
