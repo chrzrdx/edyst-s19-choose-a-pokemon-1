@@ -1,22 +1,23 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>pokemon</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             *{
-                box-sizing: content-box;
-            }
-            #container {
-                display: flex;
-                flex-direction: row;
-            }
-            .column{
-                float: left;
-                width: 33.0%
+                box-sizing: border-box;
             }
             .row{
-                content: "";
-                clear: both;
+               display: flex;
+               background-color: brown;
+               display: inline-flex;
+               grid-template-columns: auto auto auto;
+               padding: 10px;
+            }
+            .column{
+                flex: 33.33%;
+                padding: 5px;  
                 display: table;
+                margin: 0 -13px;  /* remove extra left and right margins */
             }
         </style>
     </head>
@@ -24,13 +25,19 @@
         <h1>Choose any of the pokeman</h1>
         <div class="row">
             <div class="column">
-                <img src="pokemon/pokemon11.jpg" alt="bulbasaur" style="width: 60%">
+                <img src="pokemon/pokemon11.jpg"  style="width: 75%">
+                <h3>Bulbasaur</h3>
+                <p>#001</p>
             </div>
             <div class="column">
-                    <img src="pokemon/pokemon22.jpg" alt="charmender" style="width: 60%">
+                    <img src="pokemon/pokemon22.jpg" alt="charmender"  style="width: 75%">
+                    <h3>charmender</h3>
+                    <p>#004</p>
             </div>
             <div class="column">
-                    <img src="pokemon/pokemon33.jpg" alt="squirtle" style="width: 60%">
+                    <img src="pokemon/pokemon33.jpg" alt="squirtle" style="width: 75%">
+                    <h3>squirtle</h3>
+                    <p>#007</p>
             </div>
         </div>
     </body>
