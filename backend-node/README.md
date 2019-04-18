@@ -1,1 +1,0 @@
-this simple api that returns the names of the three starters pokemon
